@@ -1,0 +1,40 @@
+
+
+.sidebar{
+    
+    flex:0.35;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: ghostwhite;
+    border-right: 1px solid black;
+
+   
+}
+.sidebar__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px; 
+
+}.sidebar__add{
+  
+    cursor: pointer;
+}
+.sidebar__add:hover{
+    color: brown;
+}
+.add{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+.add a{
+    text-decoration: inherit;
+    color: black;
+}
+.add a :hover{
+    color: brown;
+}
+

@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color:#0D2B44;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__left{
+    color: white;
+}
+
+.header__right{
+  
+    border-radius: 33px;
+    color: white;
+}

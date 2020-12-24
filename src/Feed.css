@@ -1,0 +1,18 @@
+.feed{
+    display: flex;
+    flex: 0.65;
+    flex-direction: column;
+    height: 100vh;
+    background-color: whitesmoke;
+    overflow-y: auto;
+}
+.feed__header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 119, 119);
+    background-color: rgb(255, 255, 255);
+
+
+   
+}

@@ -1,0 +1,15 @@
+.post{
+display: flex;
+/* align-items: flex-start; */
+flex-direction: column;
+border-bottom: 1px solid black;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.post__top{
+    display: flex;
+    align-items: center;
+}
+.post__topinfo{
+    padding: 3px;
+}
